@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary = ""
   s.authors = "Jason Fleetwood-Boldt"
 
-  s.files         = `git ls-files | grep  'lib/' && git ls-files | grep  'app/'`.split("\n")
+  s.files         = `git ls-files`.split("\n")
   s.require_path = ['lib']
   s.add_runtime_dependency('kaminari', '> 1', '>= 1.2.1')
 end
